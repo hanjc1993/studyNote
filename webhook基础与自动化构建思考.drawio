@@ -1,0 +1,124 @@
+<mxfile host="localhost" modified="2020-05-21T12:46:07.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.45.1 Chrome/78.0.3904.130 Electron/7.2.4 Safari/537.36" etag="F3nJnCyYMS_GgczS3eD-" version="13.0.9">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="1616" dy="792" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;dashed=1;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="532.5" y="90" width="175" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="git push" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="访问。登陆jenkins" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="点击、启动对应任务" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="6" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="等待任务完成" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="7" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="打开、登陆easyOps" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="12" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="一顿操作" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" source="14" target="15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="等待校验、发布完成" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="通知测试等人" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="当前流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="50" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="调整后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="50" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="20" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="npm run publish" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="377.5" y="100" width="135" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="22" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="测试等人收到通知" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="23" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="自动本地构建" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="24" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="自动将构建结果push到gitlab" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="25" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="tag事件触发easyOps的webhook接口" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="26" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="自动处理zip等流程，并发布" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;span style=&quot;text-align: center ; text-indent: 0px ; float: none ; display: inline ; line-height: 100%&quot;&gt;&lt;font style=&quot;line-height: 50% ; font-size: 17px&quot;&gt;push时打标签&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=30;verticalAlign=top;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=30;fontColor=#FFFFFF;" parent="1" source="32" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="发布完成触发企业微信的webhook接口" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;dashed=1;fillColor=none;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="90" width="175" height="730" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="手动部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="377.5" y="770" width="127" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="自动部分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=30;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="770" width="127" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="自动新建提测" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0;fontSize=17;dashed=1;fontColor=#D9D9D9;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;span style=&quot;text-align: center ; text-indent: 0px ; float: none ; display: inline ; line-height: 100%&quot;&gt;&lt;font style=&quot;line-height: 50% ; font-size: 17px&quot;&gt;可选择继续线上构建，则此处由jenkins触发&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=30;verticalAlign=top;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="180" width="330" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
